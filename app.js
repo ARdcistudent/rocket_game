@@ -38,13 +38,6 @@ rocket.x = rocket.x + 5;
 
 let count = 0;
 
-
-document.getElementById("resetBtn").onclick = function(){
-    count=0;
-    document.getElementById("counter").innerHTML = count;
-}
-
-
 function spaceKeyPressed(){
     const bullet = PIXI.Sprite.from('assets/bullet.png');
     bullet.x = rocket.x + 13;
